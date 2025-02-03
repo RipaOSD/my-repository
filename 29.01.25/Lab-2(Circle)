@@ -1,0 +1,31 @@
+import java.util.Scanner;
+class Main {
+    double r;
+    void area() {
+        System.out.println(3.1416*r*r);
+    }
+    
+        void circumference() {
+        System.out.println(3.1416*2*r);
+    }
+
+    public static void main(String[]args)
+    { 
+        Main p1=new Main();
+        Scanner input=new Scanner(System.in);
+        System.out.println("Radius:");
+        double rad=input.nextDouble();
+      
+        
+        p1.r = rad;
+        p1.area();
+        p1.circumference();
+        
+        
+        
+        
+    }
+    
+    
+  
+}
